@@ -1,0 +1,239 @@
+
+/* Responsive layout for Phone */
+@media only screen and  (max-width: 500px){
+
+    .logo{
+      margin-top: 5px;
+      width: 5%;
+      text-align: left;
+    }
+
+    .logoimg{
+      margin-top: 5px;
+      width:60px;
+    }
+
+    .name{
+      width: 40%;
+      margin-left: 10%;
+      text-align: left;
+      font-size: 16px;
+    }
+    .nav-elem{
+      margin-top: 20px;
+      margin-left: 1%;
+      float: right;
+    }
+
+.nav-elem a{
+  font-size: 13px;
+  padding: 5px;
+}
+
+  .main-text{
+    position: absolute;
+    font-size: 15px;
+  }
+
+.project1, .project2 , .project3{
+  display:block;
+  width:70%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.project-font{
+  font-size: 15px;
+  margin: 5px 15px 15px 15px;
+  font-family: "Tahoma", Geneva, sans-serif;
+}
+
+#about{
+  margin-top : 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 10px;
+  text-align: center;
+  padding:5%;
+
+
+}
+
+.about-me, .contact-link{
+  box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.75);
+  display:block;
+  width:80%;
+  padding: 10%;
+  margin-top: 5%;
+  align-self: center;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+.about-me article{
+  font-size: 12px;
+  padding: 5%;
+}
+
+
+.text{
+  margin-left: 20%;
+  font-size: 15px;
+}
+
+.footer-text{
+  font-size: 12px;
+}
+
+}
+
+
+/********  Responsive layout for Phone *********/
+
+@media only screen and  (max-width: 800px) and (min-width: 501px){
+
+
+
+  .logo{
+    margin-top: 5px;
+    width: 5%;
+    text-align: left;
+  }
+
+  .logoimg{
+    margin-top: 5px;
+    width:60px;
+  }
+
+  .name{
+    width: 30%;
+    margin-left: 10%;
+    text-align: left;
+  }
+  .nav-elem{
+    margin-top: 20px;
+    margin-left: 10%;
+    float: right;
+  }
+
+
+  .main-text{
+    position: absolute;
+    font-size: 25px;
+  }
+
+
+
+  .project1, .project2 {
+    display:inline-block;
+    width:30%;
+    margin: 5% 5% 5% 10%;
+  }
+
+  .project3{
+    width :40%;
+    margin: 5% 30% 5% 30%;
+  }
+  .project-font{
+    font-size: 15px;
+  }
+  #about{
+    margin-top : 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.75);
+    padding:5%;
+  }
+
+  .about-me, .contact-link{
+    display:inline-block;
+    width:40%;
+  }
+  .text{
+    font-size: 15px;
+    margin-left: 30%;
+    cursor: pointer;
+  }
+
+  .my-img{
+    width: 130%;
+    margin-left: -15%;
+    margin-top: 10%;
+  }
+
+  .about-me article{
+    margin-top: 10%;
+    font-size: 14px;
+  }
+
+}
+
+
+/********* Responsive layout for Laptop  ************/
+@media only screen and (min-width: 801px){
+
+
+  .logo{
+    margin-top: 5px;
+    width: 5%;
+    text-align: left;
+  }
+
+  .logoimg{
+    margin-top: 5px;
+    width:60px;
+  }
+
+  .name{
+    width: 30%;
+    margin-left: 3%;
+    text-align: left;
+  }
+  .nav-elem{
+    margin-left: 40%;
+    margin-right: 0;
+    float: right;
+    text-align: right;
+  }
+
+  .nav-elem a{
+    /* margin-left: 25%; */
+  }
+
+
+
+  #about{
+    margin-top : 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 3px 3px 21px -4px rgba(0,0,0,0.75);
+    padding:5%;
+  }
+
+  .text{
+    font-size: 20px;
+    margin-left: 30%;
+    cursor: pointer;
+  }
+
+  .about-me article{
+    margin-top: 5%;
+    font-size: 15px;
+  }
+}
